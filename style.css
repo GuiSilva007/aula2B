@@ -1,4 +1,83 @@
-body{
-   background-color: black;
-   color: white;
+*{
+  margin: 0;
+  padding: 0;
 }
+header{
+  background-color: rgb(121, 121, 121);
+  color: black;
+  display:flex;
+  justify-content:start;
+  
+}
+.logo{
+  width:10%;
+}
+.lupa-preta{
+  width: 5%;
+}
+.lupa-branca{
+  display: none;
+  width: 5%;
+}
+.search-text{
+  background: none;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  padding: 0;
+  transition: 0.4s;
+
+}
+.search-bnt{
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 70%;
+cursor: pointer;
+
+}
+  .botao {
+    font-family: "Crakra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo); 
+    border-left: 2px solid var(--botao-ativo); 
+    border-right: 2px solid var(--botao-ativo); 
+    border-top: none;
+}
+
+.botao {
+  font-family: "Crakra Petch", sans-serif;
+  background-color: var(--botao-inativo);
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+}
+  .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}
+
